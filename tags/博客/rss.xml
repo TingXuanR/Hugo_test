@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>博客 on TingXuanGe</title><link>http://localhost:1313/tags/%E5%8D%9A%E5%AE%A2/</link><description>Recent content in 博客 on TingXuanGe</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 05 Jan 2025 23:33:29 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E5%8D%9A%E5%AE%A2/rss.xml" rel="self" type="application/rss+xml"/><item><title>New Test</title><link>http://localhost:1313/post/new-test/</link><pubDate>Sun, 05 Jan 2025 23:33:29 +0800</pubDate><guid>http://localhost:1313/post/new-test/</guid><description>&lt;h2 id="初步使用">初步使用
+&lt;a class="header-anchor" href="#%e5%88%9d%e6%ad%a5%e4%bd%bf%e7%94%a8">&lt;/a>
+&lt;/h2>&lt;ol>
+&lt;li>
+&lt;p>下载Hogo Extend, git&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>在本地新建一个目录website，右键“git bash here”，在git bash里输出:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;blockquote>
+&lt;p>hugo new site Blog&lt;/p>
+&lt;/blockquote>
+&lt;p>创建博客网站目录。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;blockquote>
+&lt;p>cd Blog&lt;/p>
+&lt;p>// 初始化git目录&lt;/p></description></item></channel></rss>

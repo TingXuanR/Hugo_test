@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>日常 on TingXuanGe</title><link>https://tingxuanr.github.io/categories/%E6%97%A5%E5%B8%B8/</link><description>Recent content in 日常 on TingXuanGe</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Mon, 06 Jan 2025 10:13:11 +0800</lastBuildDate><atom:link href="https://tingxuanr.github.io/categories/%E6%97%A5%E5%B8%B8/rss.xml" rel="self" type="application/rss+xml"/><item><title>使用Hugo搭建博客网站</title><link>https://tingxuanr.github.io/post/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/</link><pubDate>Mon, 06 Jan 2025 10:13:11 +0800</pubDate><guid>https://tingxuanr.github.io/post/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/</guid><description>&lt;h1 id="使用hugo搭建博客网站">使用Hugo搭建博客网站
+&lt;a class="header-anchor" href="#%e4%bd%bf%e7%94%a8hugo%e6%90%ad%e5%bb%ba%e5%8d%9a%e5%ae%a2%e7%bd%91%e7%ab%99">&lt;/a>
+&lt;/h1>&lt;h2 id="初步使用">初步使用
+&lt;a class="header-anchor" href="#%e5%88%9d%e6%ad%a5%e4%bd%bf%e7%94%a8">&lt;/a>
+&lt;/h2>&lt;h3 id="下载hogo-extend-git">下载Hogo Extend, git
+&lt;a class="header-anchor" href="#%e4%b8%8b%e8%bd%bdhogo-extend-git">&lt;/a>
+&lt;/h3>&lt;p>本次hugo版本: hugo v0.140.2-aae02ca612a02e085c08366a9c9279f4abb39d94+extended windows/amd64 BuildDate=2024-12-30T15:01:53Z VendorInfo=gohugoio&lt;/p>
+&lt;h3 id="创建博客网站目录">创建博客网站目录
+&lt;a class="header-anchor" href="#%e5%88%9b%e5%bb%ba%e5%8d%9a%e5%ae%a2%e7%bd%91%e7%ab%99%e7%9b%ae%e5%bd%95">&lt;/a>
+&lt;/h3>&lt;p>在本地新建一个目录website，右键“git bash here”，在git bash里输出 hugo new site Blog&lt;/p>
+&lt;blockquote>
+&lt;p>cd Blog&lt;/p>
+&lt;p>// 初始化git目录&lt;/p></description></item></channel></rss>

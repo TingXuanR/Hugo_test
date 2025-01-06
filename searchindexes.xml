@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>使用Hugo搭建博客网站</title><url>/post/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/</url><categories><category>日常</category><category>2025-01</category></categories><tags><tag>数码</tag><tag>数码</tag></tags><content type="html"><![CDATA[  使用Hugo搭建博客网站初步使用下载Hogo Extend, git本次hugo版本: hugo v0.140.2-aae02ca612a02e085c08366a9c9279f4abb39d94+extended windows/amd64 BuildDate=2024-12-30T15:01:53Z VendorInfo=gohugoio
+创建博客网站目录在本地新建一个目录website，右键“git bash here”，在git bash里输出 hugo new site Blog
+cd Blog
+// 初始化git目录
+git init
+// 下载主题（需要科学上网，clash开TUN Mode）
+git submodule add https://github.com/hugo-next/hugo-theme-next.gitthemes/hugo-theme-next
+// 指定使用主题
+echo &ldquo;theme = &lsquo;hugo-theme-next&rsquo;&rdquo; &raquo; hugo.toml
+配置hugo-next主题此时发现hugo server运行不起来，应该是根目录下没有config文件夹。去https://github.com/hugo-next/hugo-theme-next-starter把config文件夹拷贝到Blog目录
+然后修改config下面的文件，这里放一份修改过能使用的
+配置默认文章目录等修改archetypes/default.md，每次hugo new文章时默认添加日期，目录，标签等
+date = &#39;{{ .Date }}&#39; draft = false title = &#39;{{ replace .File.ContentBaseName &#34;-&#34; &#34; &#34; | title }}&#39; categories=[&#34;日常&#34;, &#34;{{ time.Format &#34;2006-01&#34; now}}&#34;] tags = [&#34;数码&#34;, &#34;数码&#34;] 其中很有意思的是日期设置：如果写作&quot;{{ time.Format &ldquo;2025-01&rdquo; now}}&quot;，那么生成的就是60618-01而非2025-01。
+日期格式参考链接：https://gohugo.io/functions/time/format/
+  ]]></content></entry></search>
